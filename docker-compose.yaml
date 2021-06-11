@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  dev: 
+    image: thienpow/rust
+    volumes:
+      - ./:/code
+    environment: 
+      - TZ=Asia/Singapore
+      - USER=root
